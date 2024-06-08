@@ -112,3 +112,5 @@ const originalImgPath = (event) => {
 
 jsGallery.addEventListener('click', originalImgPath)
 closeButton.addEventListener('click', closeModal)
+
+document.querySelector('div.lightbox__overlay').addEventListener('click', closeModal)
